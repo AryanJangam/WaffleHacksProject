@@ -1,0 +1,79 @@
+
+header{
+    background-image: url('g10.jpg.png');
+    height: 1600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    position: absolute;
+    top: 90%;
+    Left: 35%;
+    transform: translate(-50%, -50%);
+    border: #333;
+}
+
+.title h1{
+    color: rgb(240, 240, 247);
+    font-size: 40px;
+
+}
+
+.title p{
+    color:#fff;
+    font-size: 20px;
+}
+
+.info-img {
+    background-image: url('g11.png');
+}
+    
+    
+    /* Utility Classes */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px
+}
+
+.bg-dark {
+    background: rgb(81, 83, 85);
+    color: #fff;
+}
+
+/* Navbar*/
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background: #444;
+    color: #fff;
+}

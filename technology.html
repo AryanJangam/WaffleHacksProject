@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Travel and Tourism</title>
+    <link rel="stylesheet" type="text/css" href="technology.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container1">
+            <h1 class="logo"><a href="technology.html">Technology and gadgets</a></h1>
+            <ul>
+                <li><a href="latest.html">Latest</a></li>
+                <li><a href="trending.html">Trending</a></li>
+                <li><a href="review.html">Reviews</a></li>
+            </ul>
+            </div>
+        </nav>
+        
+            <div class="title">
+                <h1></h1>
+            </div>
+   
+    </header>
+    <br>
+    <br>
+    <div class="box-1">
+        <h1><strong>Quantum data link established between two distant Chinese cities</strong></h1>
+        <br>
+        <p>A secure quantum link has been created over a distance of 511 kilometres between two Chinese cities by using a relay in the middle that doesn’t have to be trusted. This could help extend secure quantum networks.<br>
+
+        When a pair of photons are quantum entangled, you can instantly deduce the state of one by measuring the other, regardless of the distance separating them. This is the basis of quantum encryption – using entangled particles to create secure keys and ensure that messages are secret.<br>
+        
+        Previous research has created entangled pairs of photons and transmitted one to a receiver, creating a link that can establish a quantum key. But Qiang Zhang at the University of Science and Technology of China and his colleagues have extended the maximum distance of a quantum key distribution link through a cable by using an intermediate step that doesn’t read the data, but only checks if it matches what was sent by the other end.<br>
+        
+        
+        Lasers at both ends of a fibre-optic cable send photons towards each other. These particles of light are in random phases, the pattern of peaks and troughs in their movement. When a pair of photons with matching phase meet in the middle hub, the system alerts both the sender and the receiver via a traditional data link.<br>
+        
+        Because each end knows what it transmitted and whether it matched the phase of the other, they can exchange a quantum key that can be used to encrypt data sent over traditional networks. Crucially, the central hub doesn’t know what was sent, only whether the two signals matched.<br>
+        
+    </p>
+    </div>
+    <br>
+    <br>
+    <div class="box-2">
+        <p>A recent experiment by Toshiba Europe in Cambridge, UK, demonstrated a link of 600 kilometres using the same technology, but the apparatus was all housed in a single lab. The Chinese team used a fibre-optic connection 511 kilometres long strung between the cities of Jinan and Qingdao, with a central receiver based between in Mazhan.
+      </p>
+
+    </div>
+    <br>
+    <br>
+    <div class="box-3">
+        <p>Zhang says there is a healthy competition between the two labs to extend each other’s distance records. “In the lab, you have an air conditioner, but in the field when the temperature changes you will observe the photon phase drift off,” he says.
+       <br>
+            “To turn something that works in a lab into something that works in the field, I think they do a good job,” says Peter Kruger at the University of Sussex, UK. “In the lab, nobody’s allowed to talk because it ruins the experiment and clearly in the field you can’t control that. Single photons over hundreds of kilometres is quite remarkable.”
+            
+    </div>        
+     <br>
+     <br>
+     <center>
+        <div class="container">
+            <div class="post">
+              <div class="text">
+        Thanks for rating us!</div>
+        <div class="edit">
+        EDIT</div>
+        </div>
+        <div class="star-widget">
+              <input type="radio" name="rate" id="rate-5">
+              <label for="rate-5" class="fas fa-star"></label>
+              <input type="radio" name="rate" id="rate-4">
+              <label for="rate-4" class="fas fa-star"></label>
+              <input type="radio" name="rate" id="rate-3">
+              <label for="rate-3" class="fas fa-star"></label>
+              <input type="radio" name="rate" id="rate-2">
+              <label for="rate-2" class="fas fa-star"></label>
+              <input type="radio" name="rate" id="rate-1">
+              <label for="rate-1" class="fas fa-star"></label>
+              <form action="#">
+                <header1></header1>
+                <div class="textarea">
+                  <textare cols="30" placeholder="Describe your experience.."></textare> 
+        <!-- Due to more textarea tags I got a problem So I've changed the textarea tag to textare. Please correct it. -->
+                
+                <br />
+        <div class="btn">
+        <button type="submit">Post</button>
+                </div>
+        <script>
+            const btn = document.querySelector("button");
+            const post = document.querySelector(".post");
+            const widget = document.querySelector(".star-widget");
+            const editBtn = document.querySelector(".edit");
+            btn.onclick = ()=>{
+              widget.style.display = "none";
+              post.style.display = "block";
+              editBtn.onclick = ()=>{
+                widget.style.display = "block";
+                post.style.display = "none";
+              }
+              return false;
+            }
+          </script>
+          </div>
+        </center>
+    
+    </body>
+    </html>
+            
+       

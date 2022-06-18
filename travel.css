@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('m111.jfif');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    position: absolute;
+    top: 80%;
+    Left: 35%;
+    transform: translate(-50%, -50%);
+    border: #333;
+}
+
+.title h1{
+    color: rgb(240, 240, 247);
+    font-size: 40px;
+
+}
+
+.title p{
+    color:#fff;
+    font-size: 20px;
+}
+
+.info-img {
+    background-image: url('m11.jpg');
+    height:400px;
+    width: 600px;
+    background-position: center;
+}
+
+.food-img {
+    background-image: url('m14.jpg');
+    height:400px;
+    width:600px;
+    background-position: center;
+}
+
+.box-3 {
+    border-right: 3px black solid;
+    border-left: 3px black solid;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+}
+
+.box-4 {
+    border-right: 3px black solid;
+    border-left: 3px black solid;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+
+}
+/* Reset */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Main styling */
+html,body{
+    font-family: 'sans-serif';
+    line-height: 1.7em
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* Utility Classes */
+.container1 {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px
+}
+
+.bg-dark {
+    background: rgb(81, 83, 85);
+    color: #fff;
+}
+
+/* Navbar*/
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background: #444;
+    color: #fff;
+}
+
+/* Home Info */
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('m12.jpg') no-repeat;
+    min-height: 100%;
+    background-position: right-bottom-center;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+/* Relax Info */
+#relax-info {
+    height: 400px;
+}
+
+#relax-info .relax-img {
+    float: left;
+    width: 50%;
+    background: url('m13.jpg') no-repeat;
+    min-height: 100%;
+    background-position: bottom;
+}
+
+#relax-info .-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+.container {
+  position: relative;
+  width: 400px;
+  background: #111;
+  padding: 20px 30px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.container .post {
+  display: none;
+}
+.container .text {
+  font-size: 25px;
+  color: #666;
+  font-weight: 500;
+}
+.container .edit {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container .edit:hover {
+  text-decoration: underline;
+}
+.container .star-widget input {
+  display: none;
+}
+.star-widget label {
+  font-size: 40px;
+  color: #444;
+  padding: 10px;
+  float: right;
+  transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+  color: #fd4;
+}
+input:checked ~ label {
+  color: #fd4;
+}
+input#rate-5:checked ~ label {
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+}
+#rate-1:checked ~ form header1:before {
+  content: "I just hate it 😠";
+}
+#rate-2:checked ~ form header1:before {
+  content: "I don't like it 😒";
+}
+#rate-3:checked ~ form header1:before {
+  content: "It is awesome 😄";
+}
+#rate-4:checked ~ form header1:before {
+  content: "I just like it 😎";
+}
+#rate-5:checked ~ form header1:before {
+  content: "I just love it 😍";
+}
+.container form {
+  display: none;
+}
+input:checked ~ form {
+  display: block;
+}
+form header {
+  width: 100%;
+  font-size: 25px;
+  color: #fe7;
+  font-weight: 500;
+  margin: 5px 0 20px 0;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+form .textarea {
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #eee;
+  border: 1px solid #333;
+  background: #222;
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+}
+.textarea textarea:focus {
+  border-color: #444;
+}
+form .btn {
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+form .btn button {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #444;
+  outline: none;
+  background: #222;
+  color: #999;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form .btn button:hover {
+  background: #1b1b1b;
+}

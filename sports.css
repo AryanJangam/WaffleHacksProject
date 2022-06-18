@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('s1.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: rgb(240, 240, 247);
+    font-size: 50px
+    ;
+}
+
+.button {
+    position: absolute;
+    top: 55%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}

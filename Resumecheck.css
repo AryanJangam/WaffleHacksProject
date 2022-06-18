@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(8.jpg);
+    min-height: 100vh;
+    padding-top: 20px;
+}
+.newsletter{
+    background:grey;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 500px;
+    padding:50px 30px;
+    border-radius: 5px;
+    color:rgb(26, 2, 18);
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+.newsletter hr{
+    width: 70px;
+    height: 3px;
+    margin: 15px auto;
+    border: 0;
+    background:rgba(225,225,225,0.5);
+}
+.newsletter p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(225,225,225,0.5);
+    margin-bottom: 30px;
+}
+.newsletter input{
+    border-radius: 3px;
+    background-color:rgba(0,0,0,0.4);
+    width: 100%;
+    height:55px ;
+    border: 0px;
+    padding:0 20px  ;
+    color: rgba(225,225,225,0.8);
+    margin-bottom:10px ;
+    outline: none;
+    box-sizing:border-box ;
+    font-size: 16px;
+}
+::placeholder{
+    color:rgba(225,225,225,0.5);
+}
+.Resume a{
+    font-size: 100%;
+    text-decoration-color: none;
+    color:rgb(247, 243, 243);
+    background-color: rgb(26, 168, 168);
+    border-radius: 5px;
+    padding-left:7px;
+    padding-right: 7px;
+    box-sizing:border-box ;
+}
+.Resume a:hover{
+    font-size: 150%;
+    color:blue;
+    
+}
