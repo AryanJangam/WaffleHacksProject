@@ -14,7 +14,7 @@ const options = {
 };
 
 fetch(
-  "https://bing-image-search1.p.rapidapi.com/images/search?q=sketches",
+  "https://bing-image-search1.p.rapidapi.com/images/search?q=pottery",
   options
 )
   .then((response) => response.json())
