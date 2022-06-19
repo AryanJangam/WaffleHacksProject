@@ -29,8 +29,7 @@ const Navbar = () => {
                 <li><Link to="/upload"> Upload</Link></li>
                 {/* <li><i className="fa fa-window-maximize"></i> Forums</li> */}
                 <li><i className="fa fa-user-plus"></i>Logout</li>
-                {/* <li><i className="fa fa-info" ></i>Subscribe</li> */}
-                <li><Link to='/'><i className="fa fa-home" ></i> Home</Link></li>
+                <li><i className="fa fa-info" ></i>Auction</li>
                 <li><Link to="/cart"> Cart</Link></li>
             </ul>
             </div>

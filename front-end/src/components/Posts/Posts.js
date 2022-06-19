@@ -2,12 +2,12 @@ import React from 'react';
 
 import './styles.css';
 
-const Posts = ({title, artist, price, desc}) => {
+const Posts = ({title, artist, price, desc,ImgUrl}) => {
     return(
         <>
             <div className="wrapper">
                 <div className="product-img">
-                    <img src="http://bit.ly/2tMBBTd" height="320" width="227" />
+                    <img src={ImgUrl} height="320" width="227" />
                 </div>
                 <div className="product-info">
                 <div className="product-text">
