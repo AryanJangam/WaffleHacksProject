@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Posts from '../Posts/Posts';
+import Posts from "../Posts/Posts";
 
 const Home = () => {
+  
 
     const posts = [
         {
