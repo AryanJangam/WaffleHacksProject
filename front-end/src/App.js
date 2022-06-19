@@ -11,6 +11,7 @@ import Sketches from './Sketches';
 import Pottery from './Pottery';
 import Upload from './Upload';
 
+
 function App() {
   return (
     <Router>
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/sketch" element={<Sketches/>} />
           <Route exact path="/pottery" element={<Pottery/>} />
           <Route exact path="/upload" element={<Upload/>} />
+          
           {/*<Route path="*">
             <NotFound />
           </Route> */}

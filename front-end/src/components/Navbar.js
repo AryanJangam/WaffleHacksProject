@@ -15,8 +15,8 @@ const Navbar = () => {
             <ul>
 
                 <li className="active"> <Link to="/"> Home</Link></li>
-                <li><i class="fa fa-bars"></i>Category
-                <div class="submenu">
+                <li><i className="fa fa-bars"></i>Category
+                <div className="submenu">
                 <ul>
                   <li><Link to="/sculpture"> Sculpture</Link></li>
                   <li><Link to="/fashion"> Fashion</Link></li>
@@ -31,6 +31,7 @@ const Navbar = () => {
                 <li><i className="fa fa-user-plus"></i>Logout</li>
                 {/* <li><i className="fa fa-info" ></i>Subscribe</li> */}
                 <li><Link to='/'><i className="fa fa-home" ></i> Home</Link></li>
+                <li><Link to="/cart"> Cart</Link></li>
             </ul>
             </div>
             </div>
