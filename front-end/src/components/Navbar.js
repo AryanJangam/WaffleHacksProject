@@ -14,7 +14,7 @@ const Navbar = () => {
             <div className="Menubar">
             <ul>
 
-                <li className="active"> <Link to="/"> Home</Link></li>
+                <li> <Link to="/"> Home</Link></li>
                 <li><i className="fa fa-bars"></i>Category
                 <div className="submenu">
                 <ul>

@@ -4,10 +4,10 @@ import './styles.css';
 
 const Auth = () => {
 
-    const [isSignUp, setIsSignUP] = useState(false);
+    const [isSignUp, setIsSignUp] = useState(false);
 
     const switchMode = () => {
-        setIsSignUP((prevState) => !prevState);
+        setIsSignUp((prevState) => !prevState);
     }
 
     return(
