@@ -1,13 +1,36 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar'
+import Sculpture from './Sculpture';
+import Fashion from './Fashion';
+import Sketches from './Sketches';
+import Pottery from './Pottery';
+import Upload from './Upload';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Navbar />
-      <h2>front page</h2>
+      <Routes>
+      {/* <Switch> */}
+          {/* <Route exact path="/">
+            <Home />
+          </Route> */}
+          <Route exact path="/sculpture" element={<Sculpture/>}/>
+          <Route exact path="/fashion" element={<Fashion/>} />
+          <Route exact path="/sketch" element={<Sketches/>} />
+          <Route exact path="/pottery" element={<Pottery/>} />
+          <Route exact path="/upload" element={<Upload/>} />
+          {/*<Route path="*">
+            <NotFound />
+          </Route> */}
+        {/* </Switch> */}
+        </Routes>
     </div>
+    </Router>
   )
 }
 

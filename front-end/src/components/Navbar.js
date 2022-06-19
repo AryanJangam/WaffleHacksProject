@@ -1,4 +1,4 @@
-//import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -13,11 +13,21 @@ const Navbar = () => {
             <div>
             <div className="Menubar">
             <ul>
-                <li className="active"><i className="fa fa-home" ></i> Home</li>
-                <li><i className="fa fa-id-card"></i> Resume</li>
-                <li><i className="fa fa-window-maximize"></i> Forums</li>
-                <li><i className="fa fa-user-plus"></i>Login</li>
-                <li><i className="fa fa-info" ></i>Subscribe</li>
+                <li className="active"> <Link to="/"> Home</Link></li>
+                <li><i class="fa fa-bars"></i>Category
+                <div class="submenu">
+                <ul>
+                  <li><Link to="/sculpture"> Sculpture</Link></li>
+                  <li><Link to="/fashion"> Fashion</Link></li>
+                  <li><Link to="/pottery"> Pottery</Link></li>
+                  <li><Link to="/sketch"> Sketch</Link></li>
+                </ul>   
+                </div>                       
+                </li>
+                <li><Link to="/upload"> Upload</Link></li>
+                {/* <li><i className="fa fa-window-maximize"></i> Forums</li> */}
+                <li><i className="fa fa-user-plus"></i>Logout</li>
+                {/* <li><i className="fa fa-info" ></i>Subscribe</li> */}
             </ul>
             </div>
             </div>
