@@ -31,10 +31,6 @@ const Navbar = () => {
                 <li><i className="fa fa-user-plus"></i>Logout</li>
                 {/* <li><i className="fa fa-info" ></i>Subscribe</li> */}
                 <li><Link to='/'><i className="fa fa-home" ></i> Home</Link></li>
-                <li><i className="fa fa-id-card"></i> Resume</li>
-                <li><i className="fa fa-window-maximize"></i> Forums</li>
-                <li><Link to='/auth'><i className="fa fa-user-plus"></i>Login</Link></li>
-                <li><i className="fa fa-info" ></i>Subscribe</li>
             </ul>
             </div>
             </div>
